@@ -9,6 +9,11 @@ cask "pixelbot" do
 
   app "PixelBot Studio.app"
 
+  postflight do
+    system_command "xattr",
+                   args: ["-cr", "#{appdir}/PixelBot Studio.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/pixelbot",
     "~/Library/Saved Application State/com.pixellabs.pixelbot.savedState",
