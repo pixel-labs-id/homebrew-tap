@@ -1,6 +1,6 @@
 class Pixelbot < Formula
   desc "Enterprise-grade live photo streaming engine for professional photographers"
-  homepage "https://fotoyu.com"
+  homepage "https://pixelbot.web.id"
   version "1.7.5"
   license "Proprietary"
 

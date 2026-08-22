@@ -5,7 +5,7 @@ cask "pixelbot" do
   url "https://github.com/pixel-labs-id/homebrew-tap/releases/download/v1.7.5/PixelBot-StudioPro-1.7.5-macOS-arm64.dmg"
   name "PixelBot Studio"
   desc "Live photo streaming engine for professional photographers"
-  homepage "https://fotoyu.com"
+  homepage "https://pixelbot.web.id"
 
   app "PixelBot Studio.app"
 
