@@ -8,6 +8,7 @@ cask "pixelbot" do
   homepage "https://pixelbot.web.id"
 
   app "PixelBot Studio.app"
+  binary "#{appdir}/PixelBot Studio.app/Contents/MacOS/pixelbot-gui", target: "pixelbot"
 
   postflight do
     system_command "xattr",
