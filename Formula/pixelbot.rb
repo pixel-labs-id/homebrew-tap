@@ -1,16 +1,16 @@
 class Pixelbot < Formula
   desc "Enterprise-grade live photo streaming engine for professional photographers"
   homepage "https://pixelbot.web.id"
-  version "1.7.5"
+  version "1.7.6"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pixel-labs-id/homebrew-tap/releases/download/v1.7.5/pixelbot-1.7.5-darwin-arm64.tar.gz"
-      sha256 "9af4770085879cdcb75fa914e6ba0a8037cb0db0ad88f28167fa944c6f8d06c8"
+      url "https://github.com/pixel-labs-id/homebrew-tap/releases/download/v1.7.6/pixelbot-1.7.6-darwin-arm64.tar.gz"
+      sha256 "fcfbd38894685546b8cd1dbd03fc4bee6c6305823e9dddd331d279910bcc91e6"
     else
-      url "https://github.com/pixel-labs-id/homebrew-tap/releases/download/v1.7.5/pixelbot-1.7.5-darwin-amd64.tar.gz"
-      sha256 "ff7da6731c3cc94d1af062a1b09718dc0dbf630432ee437a85a65ce9c83f633a"
+      url "https://github.com/pixel-labs-id/homebrew-tap/releases/download/v1.7.6/pixelbot-1.7.6-darwin-amd64.tar.gz"
+      sha256 "dbc8e97980c2df5f0a6cd9d188db16a676803a4a31bfa23e08b11184ee838219"
     end
   end
 
