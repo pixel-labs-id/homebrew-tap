@@ -1,27 +1,24 @@
 # PixelLabs Homebrew Tap 🍺
 
-Official Homebrew Tap for **PixelBot** — the ultra-fast live photo streaming engine for professional event and sports photographers.
+Official Homebrew Tap for **PixelBot Studio** — the ultra-fast live photo streaming engine for professional event and sports photographers.
 
 ## 📦 Installation
 
-### Option 1: CLI Daemon (Headless)
+Install PixelBot Studio (Desktop App + Terminal Command):
 ```bash
-# Install PixelBot CLI
-brew install pixel-labs-id/tap/pixelbot
-```
-
-### Option 2: Desktop GUI Application (.app)
-```bash
-# Install PixelBot Studio Desktop App
 brew install --cask pixel-labs-id/tap/pixelbot
 ```
 
 ---
 
-## ⚡ Quick Start (CLI)
+## ⚡ Quick Start
 
+### Desktop GUI
+Launch **PixelBot Studio** directly from `/Applications` or Spotlight (`⌘ Space` → PixelBot Studio).
+
+### Terminal Command
 ```bash
-# Check system and pipeline status
+# Check status
 pixelbot status
 
 # Start live photo stream

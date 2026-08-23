@@ -1,6 +1,6 @@
 # 🚀 Homebrew Release Guide for PixelBot (Unified Single-Package)
 
-> **Standard Operating Procedure (SOP)** for releasing PixelBot Studio (Desktop GUI + CLI Daemon) via Homebrew Cask.
+> **Standard Operating Procedure (SOP)** for releasing PixelBot Studio via Homebrew Cask.
 
 ---
 
@@ -25,7 +25,7 @@ PixelBot uses a **Single Unified Package**:
 cd /Users/ramza/Code/personal/pixel-labs-id/pixel-bot
 
 # Set the target version
-export VERSION="1.7.6"
+export VERSION="1.7.7"
 
 # Build Studio Pro DMG with embedded libvips dylibs
 make release-pro VERSION=$VERSION
@@ -46,7 +46,7 @@ gh release create v$VERSION \
   dist/PixelBot-StudioPro-$VERSION-macOS-arm64.dmg \
   --repo pixel-labs-id/homebrew-tap \
   --title "PixelBot Studio v$VERSION" \
-  --notes "## 🚀 PixelBot Studio & CLI Daemon v$VERSION
+  --notes "## 🚀 PixelBot Studio v$VERSION
 
 ### 💎 Highlights:
 - Release notes for version $VERSION..."
