@@ -1,8 +1,8 @@
 cask "pixelbot" do
-  version "1.9.5"
-  sha256 "a0013af99139fd2f5af89357c7342cf9142e53fdf049cf17eb63fc36199391de"
+  version "1.10.0"
+  sha256 "bbc2252cec7e7045bc961ffc6e96de97990daf79a733ddfb136d5077ccb59fb3"
 
-  url "https://github.com/pixel-labs-id/homebrew-tap/releases/download/v1.9.5/PixelBot-StudioPro-1.9.5-macOS-arm64.dmg"
+  url "https://github.com/pixel-labs-id/homebrew-tap/releases/download/v1.10.0/PixelBot-StudioPro-1.10.0-macOS-arm64.dmg"
   name "PixelBot Studio"
   desc "Live photo streaming engine for professional photographers"
   homepage "https://pixelbot.web.id"
