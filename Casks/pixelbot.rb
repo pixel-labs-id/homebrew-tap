@@ -1,18 +1,18 @@
 cask "pixelbot" do
   version "1.11.0"
-  sha256 "997f2a923aa5d6f039f3965ba775dfcd0338bf8b059bd7b4f7a1feff82c3b596"
+  sha256 "1f991fda86e29a5d335773302f0c06cd2a5a03196eca7e6e3b5832d799b3cb09"
 
-  url "https://github.com/pixel-labs-id/homebrew-tap/releases/download/v1.11.0/PixelBot-StudioPro-1.11.0-macOS-arm64.dmg"
-  name "PixelBot Studio"
+  url "https://github.com/pixel-labs-id/homebrew-tap/releases/download/v1.11.0/PixelBot-1.11.0-macOS-arm64.dmg"
+  name "PixelBot"
   desc "Live photo streaming engine for professional photographers"
   homepage "https://pixelbot.web.id"
 
-  app "PixelBot Studio.app"
-  binary "#{appdir}/PixelBot Studio.app/Contents/MacOS/pixelbot-gui", target: "pixelbot"
+  app "PixelBot.app"
+  binary "#{appdir}/PixelBot.app/Contents/MacOS/pixelbot-gui", target: "pixelbot"
 
   postflight do
     system_command "xattr",
-                   args: ["-cr", "#{appdir}/PixelBot Studio.app"]
+                   args: ["-cr", "#{appdir}/PixelBot.app"]
   end
 
   zap trash: [
