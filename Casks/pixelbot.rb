@@ -1,6 +1,6 @@
 cask "pixelbot" do
   version "1.12.2"
-  sha256 "0fdb1c5c205cf3c26a6e8cc20aeed36754877606b48ede1a7d9487dc5fbe4b8b"
+  sha256 "dddb160d35fdff2abebd847b4c138fa4066f0f321661bfcc2db2f905a3c21392"
 
   url "https://github.com/pixel-labs-id/homebrew-tap/releases/download/v1.12.2/PixelBot-1.12.2-macOS-arm64.dmg"
   name "PixelBot"
